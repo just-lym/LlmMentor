@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: LLMentor_SpringAI
+  ai:
+    dashscope:
+      api-key: sk-77ecb0136b0a49b4b3665dfe856ccac2
