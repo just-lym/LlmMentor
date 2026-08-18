@@ -19,7 +19,8 @@
     <description>LLM Mentor - Parent Project</description>
 
     <modules>
-        <module>SpringAi</module>
+        <module>ai-framework/SpringAi</module>
+        <module>agent/general-agent</module>
     </modules>
 
     <properties>
@@ -55,11 +56,6 @@
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
-                    <configuration>
-                        <!-- Compile with release 24 for Spring ASM compatibility,
-                             while running on Java 26 JVM -->
-                        <release>24</release>
-                    </configuration>
                 </plugin>
             </plugins>
         </pluginManagement>
